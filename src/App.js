@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
+import Header from './components/Header';
+import About from './components/About';
+import Divisi from './components/Divisi';
+import React, { useEffect } from 'react';
+import Footer from './components/Footer';
+import Dummy from './components/Dummy'
+
+function Example() {
+  useEffect(() => {
+    document.title = 'HIMATIF - UMG';
+  }, []);
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {Example()}
+      <Nav />
+      <Header />
+      <About />
+      <Divisi />
+      <Footer />
     </div>
   );
 }
