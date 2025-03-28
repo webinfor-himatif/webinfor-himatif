@@ -16,9 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "homepage": "https://https://github.com/webinfor-himatif/webinfor-himatif.github.io"
+    "predeploy": "npm run build && mv build docs",
+    "deploy": "git add docs && git commit -m 'Deploy React App' && git push",
+    "homepage": "https://https://github.com/webinfor-himatif/webinfor-himatif"
   },
   "eslintConfig": {
     "extends": [
