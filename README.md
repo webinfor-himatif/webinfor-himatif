@@ -1,10 +1,11 @@
 # repo website profil himatif universitas muhammadiyah gresik
 
-ubah file di folder src dengan file berformat .js
+edit file di folder src/components dengan file berformat .js
 
 # astaghfirullah react meresahkan
 
 ayo mengopi rek mari lebaran tak tunjukin cara push, pull, commit
+
 |
 
 |
