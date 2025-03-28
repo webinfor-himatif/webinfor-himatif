@@ -5,9 +5,13 @@ ubah file di folder src dengan file berformat .js
 # astaghfirullah react meresahkan
 
 ayo mengopi rek mari lebaran tak tunjukin cara push, pull, commit
+|
 
+|
 
+|
 
+|
 
 # Getting Started with Create React App
 
