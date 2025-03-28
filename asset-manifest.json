@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1883bd45.css",
+    "main.js": "/static/js/main.e32bcb1f.js",
+    "static/js/453.e6010221.chunk.js": "/static/js/453.e6010221.chunk.js",
+    "static/media/HIMATIF Horizon.png": "/static/media/HIMATIF Horizon.7e7f68c466bfb714a7e6.png",
+    "static/media/2227.jpg": "/static/media/2227.f8191acd0e54751e04e5.jpg",
+    "static/media/logoHimatif.png": "/static/media/logoHimatif.26e1d05fed118d9f9638.png",
+    "static/media/himatiflogo.png": "/static/media/himatiflogo.c8af8a264a34db2a412b.png",
+    "index.html": "/index.html",
+    "main.1883bd45.css.map": "/static/css/main.1883bd45.css.map",
+    "main.e32bcb1f.js.map": "/static/js/main.e32bcb1f.js.map",
+    "453.e6010221.chunk.js.map": "/static/js/453.e6010221.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1883bd45.css",
+    "static/js/main.e32bcb1f.js"
+  ]
+}
