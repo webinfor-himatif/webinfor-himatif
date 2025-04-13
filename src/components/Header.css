@@ -30,6 +30,9 @@
 } .titlee .navLink {
     font-size: 20px;
     padding: 10px 10px;
+} .titlee .arrowDown {
+    width: 20px;
+    height: 20px;
 }
 
 @media screen and (max-width: 768px) {
