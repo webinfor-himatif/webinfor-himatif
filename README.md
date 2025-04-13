@@ -8,8 +8,8 @@ ayo mengopi rek mari lebaran tak tunjukin cara push, pull, commit
 
 |
 
-Tutorial Setup githubnya
 
+Tutorial Setup githubnya
 |
 
 download semua file dari repo ini dahulu,
@@ -52,3 +52,52 @@ git status
 -- coba membuat perubahan di file lalu commit dan setelah itu push
 
 git push
+=======
+-- #cek status dulu menggunakan:
+
+git status
+
+|
+
+-- #buat branch baru menggunakan:
+
+git branch nama_branch_anda
+
+|
+
+-- #cek list branch menggunakan:
+
+git branch -a
+
+|
+
+-- #push perubahan branch menggunakan:
+
+git push -u origin nama_branch_anda
+
+|
+
+-- #push ubah branch menjadi branch anda menggunakan:
+
+git checkout nama_branch_anda
+
+|
+
+-- #tambah list file yang dirubah
+
+git add nama_filenya
+
+|
+
+-- #commit perubahan
+
+git commit -m "perubahan anda"
+
+|
+
+-- #push perubahan
+
+git push
+
+|
+sudah
