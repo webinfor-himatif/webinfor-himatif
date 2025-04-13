@@ -50,3 +50,5 @@ git checkout nama_branch
 git status
 
 -- coba membuat perubahan di file lalu commit dan setelah itu push
+
+git push
