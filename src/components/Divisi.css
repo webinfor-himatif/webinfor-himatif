@@ -34,6 +34,13 @@
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }  */
+.divisiImg.bph {
+    background-image: url(../img/divisi/bph.jpg);
+    background-position: center;
+    background-size: 210%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease;
+}
 .divisiImg.humas {
     background-image: url(../img/divisi/humas.jpg);
     background-position: center;
@@ -86,6 +93,10 @@
     font-size: 30px;
     font-weight: bold;
 }
+.divisiImg.bph::before {
+    color: #fff;
+    content: "BPH";
+}
 .divisiImg.humas::before {
     color: #fff;
     content: "HUMAS";
@@ -119,6 +130,10 @@
     align-items: center;
     font-size: 15px;
     content: "bruhmowmdoamwd";
+}
+.divisiImg.bph::after {
+    color: #fff;
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.";
 }
 .divisiImg.humas::after {
     color: #fff;

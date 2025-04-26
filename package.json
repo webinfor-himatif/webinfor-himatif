@@ -2,6 +2,7 @@
   "name": "himatif",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://webinfor-himatif.github.io/webinfor-himatif/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,11 +15,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build && mv build docs",
-    "deploy": "git add docs && git commit -m 'Deploy React App' && git push",
-    "homepage": "https://webinfor-himatif.github.io/webinfor-himatif"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -40,12 +40,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-
-  "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
+  }
 }
