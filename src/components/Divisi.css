@@ -30,6 +30,12 @@
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }  */
+.divisiImg.bph {
+    /* background-image: url(../img/kadivBph.JPG); */
+    background-color: ghostwhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .divisiImg.humas {
     /* background-image: url(../img/kadivHumas.JPG); */
     background-color: ghostwhite;
@@ -65,7 +71,9 @@
     font-size: 30px;
     font-weight: bold;
 } 
-.divisiImg.humas::before {
+.divisiImg.bph::before {
+    content: 'BPH';
+} .divisiImg.humas::before {
     content: 'HUMAS';
 } .divisiImg.kaderan::before {
     content: 'PENGKADERAN';
@@ -88,6 +96,8 @@
     align-items: center;
     font-size: 15px;
     content: 'bruhmowmdoamwd';
+} .divisiImg.bph::after {
+    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.';
 } .divisiImg.humas::after {
     content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.';
 } .divisiImg.kaderan::after {
