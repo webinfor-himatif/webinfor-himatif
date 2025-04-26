@@ -5,23 +5,27 @@
     align-items: center;
     justify-content: center;
     padding: 0 5%;
-    width: 100%; height: 100vh;
+    width: 100%;
+    height: 100vh;
     margin-bottom: 10vh;
-} .divisiImg {
-    width: 300px; height: 70vh;
+}
+.divisiImg {
+    width: 300px;
+    height: 70vh;
     position: relative;
-    transition: 0.3s;
-} .divisiImg.hover {
-    transform: scale(0.2);
-} .divisi .title {
+}
+
+.divisi .title {
     align-self: start;
-} .listDivisi {
+}
+.listDivisi {
     display: flex;
-    width: 100%; height: max-content;
+    width: 100%;
+    height: max-content;
     justify-content: center;
     align-items: center;
     gap: 0.5%;
-} 
+}
 
 /* .divisiImg.humas, .divisiImg:first-child::before {
     border-top-left-radius: 30px;
@@ -30,88 +34,124 @@
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }  */
-.divisiImg.bph {
-    /* background-image: url(../img/kadivBph.JPG); */
-    background-color: ghostwhite;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .divisiImg.humas {
-    /* background-image: url(../img/kadivHumas.JPG); */
-    background-color: ghostwhite;
-    background-size: cover;
+    background-image: url(../img/divisi/humas.jpg);
+    background-position: center;
+    background-size: 210%;
     background-repeat: no-repeat;
-} .divisiImg.kwu {
-    /* background-image: url(../img/kadivKwu.JPG); */
-    background-color: ghostwhite;
-    background-size: cover;
+    transition: background-size 0.3s ease;
+}
+.divisiImg.kwu {
+    background-image: url(../img/divisi/kwu.jpg);
+    background-position: center;
+    background-size: 210%;
     background-repeat: no-repeat;
-} .divisiImg.litbang {
-    /* background-image: url(../img/kadivLitbang.JPG); */
-    background-color: ghostwhite;
-    background-size: cover;
+    transition: background-size 0.3s ease;
+}
+.divisiImg.litbang {
+    background-image: url(../img/divisi/litbang.jpg);
+    background-position: center;
+    background-size: 210%;
     background-repeat: no-repeat;
-} .divisiImg.kaderan {
-    /* background-image: url(../img/kadivKaderan.JPG); */
-    background-color: ghostwhite;
-    background-size: cover;
+    transition: background-size 0.3s ease;
+}
+.divisiImg.kaderan {
+    background-image: url(../img/divisi/pengkaderan.jpg);
+    background-position: center;
+    background-size: 210%;
     background-repeat: no-repeat;
+    transition: background-size 0.3s ease;
+}
+
+.divisiImg:hover {
+    background-size: 250%;
+}
+
+.divisiImg:hover::before {
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .divisiImg::before {
     display: block;
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     z-index: 3;
-    width: 100%; height: 100%;
-    
+    width: 100%;
+    height: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     font-weight: bold;
-} 
-.divisiImg.bph::before {
-    content: 'BPH';
-} .divisiImg.humas::before {
-    content: 'HUMAS';
-} .divisiImg.kaderan::before {
-    content: 'PENGKADERAN';
-} .divisiImg.kwu::before {
-    content: 'KWU';
-} .divisiImg.litbang::before {
-    content: 'LITBANG';
+}
+.divisiImg.humas::before {
+    color: #fff;
+    content: "HUMAS";
+}
+.divisiImg.kaderan::before {
+    color: #fff;
+    content: "PENGKADERAN";
+}
+.divisiImg.kwu::before {
+    color: #fff;
+    content: "KWU";
+}
+.divisiImg.litbang::before {
+    color: #fff;
+    content: "LITBANG";
 }
 
 .divisiImg::after {
     display: block;
     position: absolute;
-    top: 20%; left: 0;
+    top: 20%;
+    left: 0;
     text-align: center;
-    z-index: 3; padding: 0 2%;
-    width: 100%; height: 100%;
-    
+    z-index: 3;
+    padding: 0 2%;
+    width: 100%;
+    height: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    content: 'bruhmowmdoamwd';
-} .divisiImg.bph::after {
-    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.';
-} .divisiImg.humas::after {
-    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.';
-} .divisiImg.kaderan::after {
-    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.';
-} .divisiImg.kwu::after {
-    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.';
-} .divisiImg.litbang::after {
-    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.';
+    content: "bruhmowmdoamwd";
+}
+.divisiImg.humas::after {
+    color: #fff;
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.";
+}
+.divisiImg.kaderan::after {
+    color: #fff;
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.";
+}
+.divisiImg.kwu::after {
+    color: #fff;
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.";
+}
+.divisiImg.litbang::after {
+    color: #fff;
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dolor.";
+}
+
+.divisiImg::after,
+.divisiImg::before {
+    display: none;
+}
+
+.divisiImg:hover::after,
+.divisiImg:hover::before {
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
     .divisi {
         height: 300vh;
-    } .divisi .title {
+    }
+    .divisi .title {
         text-align: center;
         align-self: center;
     }
@@ -120,9 +160,13 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 0.5%;
-    } .divisiImg {
-        width: 100%; height: 40vh;
-    } .divisiImg.humas, .divisiImg.kaderan {
+    }
+    .divisiImg {
+        width: 100%;
+        height: 40vh;
+    }
+    .divisiImg.humas,
+    .divisiImg.kaderan {
         border-radius: 0;
     }
 }
@@ -133,9 +177,14 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 0.5%;
-    } .divisiImg {
-        width: 100%; height: 70vh;
-    } .divisiImg.litbang, .divisiImg.kaderan, .divisiImg.kwu {
+    }
+    .divisiImg {
+        width: 100%;
+        height: 70vh;
+    }
+    .divisiImg.litbang,
+    .divisiImg.kaderan,
+    .divisiImg.kwu {
         background-position: "center end";
     }
 }
